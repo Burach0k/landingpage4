@@ -1,0 +1,550 @@
+input{
+    border:2px solid blueviolet;
+}
+.login-register{
+    display: inline-block;
+    width: 40vw;
+    height: 60vh;
+    margin-top: 20vh;
+    margin-left: 30vw;
+    text-align: center;
+    border-radius: 5px;
+    background-color: slategray;
+}
+
+.register_field{
+    display: inline-block;
+    width: 100%;
+    margin:50px 0;
+}
+body .table{
+    background-color: slategray;
+    width: 80%;
+    margin: auto;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  html {
+    height: 100%;
+    width: 100%;
+  }
+
+  body {
+    height: 100%;
+    width: 100%;
+  }
+body {
+    background-image: url("./screens/Forest.png");
+    opacity: 0.9;
+  background-repeat: no-repeat;
+  -moz-background-size: cover; 
+  -webkit-background-size: cover;
+  -o-background-size: cover; 
+  background-size: cover;
+  background-color: black;
+}
+#hero-name-health{
+  display: inline-block;
+}
+#monster-name-health{
+  display: inline-block;
+}
+#BattleGround{
+  width: 100%;
+  height: 80%;
+}
+#monsterHealth{
+  border-radius: 5px;
+  height: 20px;
+}
+#heroHealth{
+  border-radius: 5px;
+  height: 20px;
+}
+#heroName{
+  color: aliceblue;
+  font-size: 25px;
+}
+#text-round{
+  text-align: center;
+  color: aliceblue;
+  font-size: 25px;
+}
+#monsterName{
+  display: inline-block;
+  color: aliceblue;
+  font-size: 25px;
+}
+button {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
+  width: 70px;
+  border-radius: 5px;
+  background-color: teal;
+  font-size: 10px;
+}
+
+
+#round {
+  font-size:52px;
+  color:rgb(26, 15, 23);
+ width: 100%;
+ height: 10%;
+  display: flex;
+  text-align: center;
+  justify-content:space-around; 
+}
+progress{
+  display: block;
+  color: red;
+  background: black;
+  height:40px;
+  width: 300px;
+
+}
+.cssload-box-loading {
+	width: 49px;
+	height: 49px;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.cssload-box-loading:before {
+	content: '';
+	width: 49px;
+	height: 5px;
+	background: rgb(0,0,0);
+	opacity: 0.1;
+	position: absolute;
+	top: 58px;
+	left: 0;
+	border-radius: 50%;
+	animation: shadow 0.58s linear infinite;
+		-o-animation: shadow 0.58s linear infinite;
+		-ms-animation: shadow 0.58s linear infinite;
+		-webkit-animation: shadow 0.58s linear infinite;
+		-moz-animation: shadow 0.58s linear infinite;
+}
+.cssload-box-loading:after {
+	content: '';
+	width: 49px;
+	height: 49px;
+	background: rgb(26,54,104);
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 3px;
+	animation: cssload-animate 0.58s linear infinite;
+		-o-animation: cssload-animate 0.58s linear infinite;
+		-ms-animation: cssload-animate 0.58s linear infinite;
+		-webkit-animation: cssload-animate 0.58s linear infinite;
+		-moz-animation: cssload-animate 0.58s linear infinite;
+}
+
+
+
+@keyframes cssload-animate {
+	17% {
+		border-bottom-right-radius: 3px;
+	}
+	25% {
+		transform: translateY(9px) rotate(22.5deg);
+	}
+	50% {
+		transform: translateY(18px) scale(1, 0.9) rotate(45deg);
+		border-bottom-right-radius: 39px;
+	}
+	75% {
+		transform: translateY(9px) rotate(67.5deg);
+	}
+	100% {
+		transform: translateY(0) rotate(90deg);
+	}
+}
+
+@-o-keyframes cssload-animate {
+	17% {
+		border-bottom-right-radius: 3px;
+	}
+	25% {
+		-o-transform: translateY(9px) rotate(22.5deg);
+	}
+	50% {
+		-o-transform: translateY(18px) scale(1, 0.9) rotate(45deg);
+		border-bottom-right-radius: 39px;
+	}
+	75% {
+		-o-transform: translateY(9px) rotate(67.5deg);
+	}
+	100% {
+		-o-transform: translateY(0) rotate(90deg);
+	}
+}
+
+@-ms-keyframes cssload-animate {
+	17% {
+		border-bottom-right-radius: 3px;
+	}
+	25% {
+		-ms-transform: translateY(9px) rotate(22.5deg);
+	}
+	50% {
+		-ms-transform: translateY(18px) scale(1, 0.9) rotate(45deg);
+		border-bottom-right-radius: 39px;
+	}
+	75% {
+		-ms-transform: translateY(9px) rotate(67.5deg);
+	}
+	100% {
+		-ms-transform: translateY(0) rotate(90deg);
+	}
+}
+
+@-webkit-keyframes cssload-animate {
+	17% {
+		border-bottom-right-radius: 3px;
+	}
+	25% {
+		-webkit-transform: translateY(9px) rotate(22.5deg);
+	}
+	50% {
+		-webkit-transform: translateY(18px) scale(1, 0.9) rotate(45deg);
+		border-bottom-right-radius: 39px;
+	}
+	75% {
+		-webkit-transform: translateY(9px) rotate(67.5deg);
+	}
+	100% {
+		-webkit-transform: translateY(0) rotate(90deg);
+	}
+}
+
+@-moz-keyframes cssload-animate {
+	17% {
+		border-bottom-right-radius: 3px;
+	}
+	25% {
+		-moz-transform: translateY(9px) rotate(22.5deg);
+	}
+	50% {
+		-moz-transform: translateY(18px) scale(1, 0.9) rotate(45deg);
+		border-bottom-right-radius: 39px;
+	}
+	75% {
+		-moz-transform: translateY(9px) rotate(67.5deg);
+	}
+	100% {
+		-moz-transform: translateY(0) rotate(90deg);
+	}
+}
+
+@keyframes shadow {
+	0%,
+	100% {
+		transform: scale(1, 1);
+	}
+	50% {
+		transform: scale(1.2, 1);
+	}
+}
+
+@-o-keyframes shadow {
+	0%,
+	100% {
+		-o-transform: scale(1, 1);
+	}
+	50% {
+		-o-transform: scale(1.2, 1);
+	}
+}
+
+@-ms-keyframes shadow {
+	0%,
+	100% {
+		-ms-transform: scale(1, 1);
+	}
+	50% {
+		-ms-transform: scale(1.2, 1);
+	}
+}
+
+@-webkit-keyframes shadow {
+	0%,
+	100% {
+		-webkit-transform: scale(1, 1);
+	}
+	50% {
+		-webkit-transform: scale(1.2, 1);
+	}
+}
+
+@-moz-keyframes shadow {
+	0%,
+	100% {
+		-moz-transform: scale(1, 1);
+	}
+	50% {
+		-moz-transform: scale(1.2, 1);
+	}
+}
+body .modal {
+  margin: auto auto auto auto;
+  width: 800px;
+}
+
+body .skill {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+body .col {
+  text-align: center;
+}
+body .last {
+  margin-top: 50px;
+}
+body .modal-content {
+  border: none;
+  background: rgba(0, 0, 0, 0);
+}
+#mySkill1 .modal {
+  display: block;
+  margin: auto auto auto auto;
+}
+#mySkill1 .modal-content {
+  height: 300px;
+  text-align: center;
+  background-color: cadetblue;
+}
+#mySkill3 .modal-content {
+  text-align: center;
+  background-color: cadetblue;
+}
+#mySkill1 span {
+  font-size: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+body p {
+  font-size: 30px;
+  text-align: center;
+}
+
+#contain {
+  border-radius: 5px;
+  text-align: center;
+  background-color: violet;
+  width: 80%;
+  margin: 0 10% 0 10%;
+}
+
+#contain div {
+  font-size: 40px;
+  margin: 0 5px 0 5px;
+  width: 40px;
+  text-align: center;
+  display: inline-block;
+  background-color: blueviolet;
+}
+body .img-modal {
+  border-radius: 50%;
+  user-select: none;
+  width: 70px;
+  height: 70px;
+}
+#task-input1 {
+  margin-top: 40px;
+  width: 50%;
+  height: 50px;
+  font-size: 25px;
+  text-align: center;
+}
+#span1-skill1,
+#span1-skill2 {
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+#mySkill2 div:focus{
+    background-color: royalblue;
+    display: inline-block;
+}
+#container-skill2 {
+    display: flex;
+}
+
+#container-skill2 div{
+    display: inline-block;
+    border-radius: 5px;
+  text-align: center;
+  background-color: violet;
+  width: 80%;
+  margin: 0 10% 0 10%;
+}
+#task-input2 {
+  display: inline-block;
+  width: 40%;
+  height: 50px;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+body .skill4 {
+  background-color: slateblue;
+  text-align: center;
+  border-radius: 5px;
+}
+#task-input1 {
+  width: 50%;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+#voiceButton {
+  font-size: 20px;
+  width: 100px;
+  height: 60px;
+}
+#sequence-skill5{
+    font-size: 25px;
+}
+#task-input4{
+    font-size: 25px;
+    width: 50%;
+    height: 60px;
+}
+#enWornd-skill6 {
+  font-size: 25px;
+  display: inline-block;
+  font-weight:bold;
+  text-align: center;
+}
+#task-input5 {
+  font-size: 25px;
+  height: 60px;
+  width: 30%;
+  display: block;
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+#color-skill7{
+  font-weight:bold;
+  font-size: 25px;
+}
+#container-skill7{
+    text-align: center;
+}
+#container-skill7 p{
+  background-color: steelblue;
+  display: inline-block;
+  margin: 0 5px 0 5px;
+  text-align: center;
+}
+#container-skill7 p:focus{
+border: solid 4px plum;
+box-sizing:content-box;
+}
+
+#container-skill9 {
+  display: inline;
+  text-align: center;
+}
+#container-skill9 p {
+  margin: 0 5px;
+  border: solid 1px blueviolet;
+  background-color: steelblue;
+}
+#mySkill9 .modal-body{
+  background-color: thistle;
+}
+#container-skill9 p:focus{
+  background-color: aquamarine;
+}
+
+#mySkill11 .modal-content {
+  text-align: center;
+  background-color: cadetblue;
+}
+
+#mySkill11 ul{
+  font-size:25px;
+  padding: 0;
+  display: inline-block;
+  margin:0 auto 10px ;
+}
+#mySkill11 li{
+  margin: 0 10px;
+  display: inline-block;
+ border-bottom: 2px solid rebeccapurple;
+ user-select: none;
+}
+#mySkill11 li:focus{
+ border-bottom: 5px solid rebeccapurple;
+
+}
+#mySkill10 .modal-body{
+background-color: darkgray;
+}
+#mySkill10 p:focus{
+    background-color: violet;
+}
+#mySkill12 .modal-body{
+    background-color: teal;
+}
+#mySkill12 p{
+    display: inline-block;
+}
+
+#mySkill12 input{
+    display: inline-block;
+}
+#sequence-skill13{
+    font-size: 25px;
+}
+#task-input8{
+    display: flex;
+    font-size: 25px;
+    width: 50%;
+    height: 60px;
+}
+#mySkill13 .modal-body{
+    background-color: teal;
+}
+#mySkill13 p:focus{
+    background-color: slategray;
+}
+#sequence-skill5{
+    font-size: 25px;
+}
+#task-input4{
+    font-size: 25px;
+    width: 50%;
+    height: 60px;
+}
+#container-skill15 {
+    display: inline;
+    text-align: center;
+  }
+  #container-skill15 p {
+    margin: 0 5px;
+    border: solid 1px blueviolet;
+    background-color: steelblue;
+  }
+  #mySkill15 .modal-body{
+    background-color: thistle;
+  }
+  #container-skill15 p:focus{
+    background-color: aquamarine;
+  }
